@@ -1,0 +1,283 @@
+
+/*.embed_error_button-link{
+	visibility: hidden;
+}
+
+._embed_error_button-link{
+	visibility: hidden;
+}
+
+._embed_error_wrapper{
+	visibility: hidden;
+}
+._embed_video_card-wrapper-new{
+	visibility: hidden;
+}
+
+.kt-footer{
+    display:none;
+}*/
+
+.new-post-modal {
+        background-color:transparent;
+        box-shadow:none;
+        border:1px solid transparent;
+    }
+.new-post-modal textarea::-webkit-input-placeholder {
+        font-style: normal;
+    }
+
+    .new-post-box {
+        background-color:transparent;
+        box-shadow:none;
+        border:1px solid transparent;
+    }
+
+    .new-post-box textarea::-webkit-input-placeholder {
+        font-style: normal;
+    }
+
+    #hidden_comments{
+        display:none;
+    }
+
+
+    #picture_and_post_buttons:hover{
+        transition:0.2s;
+        transform: scale(1.1);
+    }
+
+
+    @media screen and (max-width: 700px){
+
+        .modal{
+            margin-top:-35px;
+        }
+
+         #post_location_btn{
+            position:absolute;
+            margin-left:67%;
+            margin-top:-73px;
+            background-color:white;
+            height:40px;
+            width:40px;
+            border-radius:20px;
+            padding-top:20px;
+            padding-left:5px;
+        }
+
+         #post_location_pin{
+            position:absolute;
+            margin-left:72%;
+            margin-top:-55px;
+        }
+
+        #location_bar{
+            margin-left:0%;
+            margin-top:-10px;
+            height:40px;
+            margin-bottom:25px;
+            padding-top:10px;
+        }
+
+        #influencer_azienda_boxes{
+            justify-content:center;
+            margin-top:-10px;
+        }
+
+        .new-post-box textarea{
+            border-radius:25px;
+            padding-top:13px;
+            padding-bottom:10px;
+            padding-left:10px;
+            padding-right:10px;
+            width:52%; 
+            }
+        
+        .new-post-modal textarea{
+            border-radius:25px;
+            padding-top:13px;
+            padding-bottom:10px;
+            padding-left:10px;
+            padding-right:10px;
+            width:100%; 
+            height:100px;
+            margin-top:20px;
+            }
+        
+        #share_something{
+            position:absolute;
+            height:10px;
+            max-height:100%;
+            margin-left:5px;
+            width:90%;
+            }
+            
+        #new_post_box_height{
+            max-height:100%;
+            margin-top:-30px;
+            margin-left:50px;
+            }
+
+        #send_button_id{
+            max-height:30px;
+            max-width:30px;
+            border-radius:15px;
+            }
+        
+        .material-icons.md-12{ 
+            font-size: 18px;
+            }
+
+        #big_post_button{
+            margin-top:-48px;
+            position:static;
+            height:40px; 
+            width:40px; 
+            border-radius:20px; 
+            background-color:white; 
+            border:1px solid red; 
+            margin-right:-48%;
+            }
+        
+         #big_close_button{
+             border:1px solid black;
+             margin-left:38%;
+            }
+        
+        #post_button_id_logo{
+            margin-top:-2px; 
+            margin-left:-7px; 
+            color:#e72b38;
+            }
+        
+        #big_image_button{
+            position:absolute;
+            height:40px; 
+            width:40px; 
+            border-radius:20px; 
+            background-color:white;
+            border:1px solid blue;
+            margin-left:10px;
+            margin-top:-48px;
+            }
+        
+        #image_button_id_logo{
+            margin-top:-1px; 
+            margin-left:0px; 
+            color:#5979FB;
+            }
+
+        #sugg_peep_placement{
+            margin-top:-75px;
+        }
+
+        #suggested_people_feed{
+            margin-top:0px;
+            margin-left:10px;
+        }
+    }
+
+    
+
+    @media screen and (min-width: 700px){
+
+        #post_location_btn{
+            position:absolute;
+            margin-left:46%;
+            margin-top:-40px;
+        }
+
+        #location_bar{
+            height:50px;
+            padding-top:15px;
+        }
+
+        .new-post-box textarea{
+            border-radius:25px;
+            padding-top:15px;
+            padding-bottom:10px;
+            padding-left:10px;
+            padding-right:10px;
+            width:650px; 
+            height:50px;
+            margin-left:55px;
+            }
+        
+        .new-post-modal textarea{
+            border-radius:25px;
+            padding-top:12px;
+            padding-bottom:10px;
+            padding-left:10px;
+            padding-right:10px;
+            width:100%;
+            height:100px; 
+            margin-left:55px;
+            margin-top:20px;
+            border-radius:25px;
+            }
+
+        #new_post_box_height{
+            max-height:1800px;
+            margin-top:-25px;
+            }
+
+        .material-icons.md-12{ 
+            font-size: 18px;
+            }
+
+        #big_post_button{
+            height:40px; 
+            width:40px; 
+            margin-top:-47px;
+            border-radius:20px; 
+            background-color:white; 
+            border:1px solid red; 
+            margin-right:-55%;
+            }
+        
+         #big_close_button{
+             border:1px solid black;
+             margin-left:42%;
+        }
+
+        #big_image_button{
+            position:absolute;
+            height:40px; 
+            width:40px;
+            margin-top:-47px; 
+            border-radius:20px; 
+            background-color:white;
+            border:1px solid blue; 
+            }
+
+        #post_button_id_logo{
+            margin-top:-2px; 
+            margin-left:-7px; 
+            color:#e72b38;
+            }
+        
+        #image_button_id_logo{
+            margin-top:-2px; 
+            margin-left:0px; 
+            color:#5979FB;
+            }
+
+        #big_post_button:hover{
+            transition:0.2s;
+            transform: scale(1.1);
+            }
+        
+        #big_image_button:hover{
+            transition:0.2s;
+            transform: scale(1.1);
+            }
+        
+        #sugg_peep_placement{
+            margin-top:-10px;
+        }
+
+        #suggested_people_feed{
+            margin-top:-30px;
+        }
+    }
