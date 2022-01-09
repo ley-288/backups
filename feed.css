@@ -1,0 +1,106 @@
+ #loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 100;
+        background-color: #fff;
+        z-index: 99;
+    }
+
+    #loading-image {
+        height:50px;
+        width:50px;
+        z-index: 100;
+    }
+
+	#hidden_comments{
+    	display:none;
+	}
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .list-group-item{
+        border:1px solid transparent;
+    }
+
+    @media screen and (min-width: 700px){
+
+            body{
+                overflow-x:hidden;
+            }
+
+        	.widget_wall{
+        	    display:block;
+        	    margin-left: auto;
+        	    margin-right: auto;
+        	    max-width:800px;
+        	    }
+
+        	.social_side{
+        	    display:block;
+        	    margin-left:auto;
+        	    margin-right:auto;
+        	    width:800px;
+        	    }
+                
+    }
+
+  
+
+    @media screen and (max-width: 700px){
+
+         div.scrollmenu_follow { 
+                position:absolute;
+                margin-top:-70px;
+                background-color: transparent;
+                overflow-x:auto;
+                overflow-y:hidden;
+                white-space: nowrap;
+                height:80px;
+                max-width:110vw;
+                margin-left:-15px;
+                }
+            
+
+            div.scrollmenu_follow_group { 
+                position:absolute;
+                margin-top:-20px;
+                background-color: transparent;
+                overflow-x:auto;
+                overflow-y:hidden;
+                white-space: nowrap;
+                height:80px;
+                max-width:110vw;
+                margin-left:-15px;
+                }
+
+            .follow_link_icons {
+  		        position: relative;
+  		        display: inline-block;
+  		        float: center;
+		        }
+
+        	.widget_wall{
+        	    display:block;
+        	    margin-left: auto;
+        	    margin-right: auto;
+        	    max-width:800px;
+        	    }
+
+        	.social_side{
+        	    display:block;
+        	    margin-left:auto;
+        	    margin-right:auto;
+        	    width:330px;
+        	    }
+            
+            
+
+    }
