@@ -79,7 +79,7 @@ function saveMyLocation(userID = 0){
     
     //geocoder = new google.maps.Geocoder();
     //var latlng = new google.maps.LatLng(latitude, longitude);
-    //$.get(location.protocol + "//maps.google.com/maps/api/js?key=AIzaSyA5WCq7ukhiHTEdkYlcnGVE48a2v3cXnEY&address="+address, function(data){
+    //$.get(location.protocol + "//maps.google.com/maps/api/js?key=xxx&address="+address, function(data){
     //   console.log(data);
     //});
     var updated = false;
