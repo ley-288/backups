@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'key'       => env('GOOGLE_API_KEY', 'AIzaSyBU4bT__37IdwJU2YrulWDq4K8-khcl-5U'),
+    'key'       => env('GOOGLE_API_KEY', ''),
 
     /*
     |--------------------------------------------------------------------------
